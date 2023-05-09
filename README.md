@@ -1,2 +1,2 @@
 # zomato-clone
-Created with CodeSandbox
+Zomato Clone with React-JS.
