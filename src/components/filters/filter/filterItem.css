@@ -1,0 +1,14 @@
+.filter-item {
+  display: flex;
+  padding: 8px;
+  background-color: var(--primary-bg-white);
+  color: #9c9c9c; /*var(--filter-text); */
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  margin: 10px 10px 10px 0px;
+  font-size: 14px;
+}
+
+.filter-name {
+  margin-left: 5px;
+}

@@ -1,0 +1,23 @@
+@import "../../../styles/commonClasses.css";
+@import "../../../styles/variables.css";
+
+.top-brands {
+  padding-top: 30px;
+}
+
+.top-brands-cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  background-color: var(--primary-bg-white);
+  box-shadow: var(--collection-shadow);
+  border: 0.5px solid var(--border-white);
+  margin-bottom: 20px;
+}
+
+.top-brands-image {
+  border-radius: inherit;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

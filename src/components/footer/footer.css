@@ -1,0 +1,94 @@
+@import "../../styles/variables.css";
+@import "../../styles/commonClasses.css";
+
+.footer-main {
+  background: var(--inactive-color);
+}
+
+.main-row {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.header-logo {
+  margin-right: 24px;
+}
+
+.main-row-country {
+  border: 1px solid var(--gray);
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+  gap: 5px;
+}
+
+.flag-image {
+  width: 30px;
+  height: 25px;
+}
+
+.main-row-language {
+  border: 1px solid var(--gray);
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  gap: 5px;
+  margin-right: 20px;
+}
+
+.sub-row-title {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-row-title h4 {
+  font-weight: normal;
+}
+
+.list-item {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 7px;
+  color: var(--zomato-gray);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-store {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin-top: 30px;
+}
+
+.social-appstore {
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.social-googlestore {
+  height: 40px;
+}
+
+.separator-line {
+  background-color: var(--gray);
+  height: 1px;
+}
+
+.terms-condition-text {
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--zomato-gray);
+  padding: 15px;
+}

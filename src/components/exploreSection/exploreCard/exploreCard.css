@@ -1,0 +1,158 @@
+@import "../../../styles/commonClasses.css";
+@import "../../../styles/variables.css";
+
+.explore-card {
+  margin: 12px 0px 24px 0px;
+  padding: 15px;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.explore-card:hover {
+  box-shadow: 0px 0px 5px 5px var(--gray);
+}
+
+.explore-card-cover {
+  height: 248px;
+  width: 328px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.explore-card-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.delivery-time {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  opacity: 0.8;
+  background-color: var(--primary-bg-white);
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+  font-weight: 600;
+  font-size: 12px;
+  padding: 2px 5px 3px;
+}
+
+.pro-off {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+  background-color: var(--tag-red);
+  color: var(--primary-bg-white);
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.discount {
+  position: absolute;
+  left: 0px;
+  bottom: 14px;
+  background-color: var(--tag-blue);
+  color: var(--primary-bg-white);
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.gold-off {
+  position: absolute;
+  left: 0px;
+  bottom: 14px;
+  background-color: var(--tag-green);
+  color: var(--primary-bg-white);
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.res-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px 6px;
+}
+
+.res-name {
+  max-width: width 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--heading-text);
+}
+
+.res-rating {
+  padding: 0px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-bg-white);
+  background-color: var(--tag-green);
+  border-radius: 6px;
+  height: 24px;
+}
+
+.res-star-icon {
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.res-cuisine {
+  max-width: 56%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.res-cuisine-tag {
+  margin-right: 4px;
+  color: var(--inactive-text);
+}
+
+.res-price {
+  font-size: 14px;
+  color: var(--inactive-text);
+}
+
+.explore-bottom {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.res-bottom-text {
+  font-size: 12px;
+  color: var(--inactive-text);
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+.card-separator {
+  background-color: var(--border-white);
+  height: 1px;
+  margin: 10px 0px 5px;
+}
